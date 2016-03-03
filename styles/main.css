@@ -5,6 +5,8 @@
 .box {
   width: 2000px;
   height: 200px;
+  border: 2px solid goldenrod;
+  margin: 2px;
 
 }
 
@@ -14,7 +16,7 @@
 }
 
 .box2 {
-order: 2; 
+order: 2;
  background-color: crimson;
 
 }
