@@ -1,7 +1,7 @@
 .container {
   display: flex;
   flex-wrap: wrap-reverse;
-  flex-direction: row;
+  flex-direction: row-reverse;
 }
 
 .box {
