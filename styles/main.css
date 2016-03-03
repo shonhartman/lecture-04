@@ -2,13 +2,14 @@
   height: 150px;
   width: 80px;
   background-color: crimson;
-  transition: background-color 1s, height 1s;
+  /*transition: background-color 1s, height 1s;*/
+  animation: 5s dance-idarb-dance;
 }
 
 .idarb:hover {
   background-color: blue;
   height: 200px;
-  transition: background-color 3s, height 3s;
+  /*transition: background-color 3s, height 3s;*/
 }
 
 .face {
@@ -30,4 +31,18 @@
   background-color: #000;
   display: inline-block;
   vertical: top;
+}
+
+@keyframes dance-idarb-dance {
+  0% {
+
+  }
+
+  50% {
+    transform: translateX(100px);
+  }
+
+  100% {
+
+  }
 }
