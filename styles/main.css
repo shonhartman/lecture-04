@@ -1,3 +1,7 @@
+.container {
+  display: flex;
+}
+
 .box {
   height: 100vh;
 }
