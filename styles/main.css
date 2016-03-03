@@ -7,7 +7,7 @@
 .idarb:hover {
   background-color: blue;
   height: 200px;
-  transition: background-color 3s;
+  transition: background-color 3s, height 3s;
 }
 
 .face {
